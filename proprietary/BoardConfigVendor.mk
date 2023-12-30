@@ -18,7 +18,6 @@ TARGET_BOARD_INFO_FILE := vendor/google_devices/oriole/firmware/android-info.txt
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/input \
-    hardware/google/pixel-sepolicy/googlebattery \
     device/google/gs101-sepolicy/whitechapel/vendor/google/exo_camera_injection \
     hardware/google/pixel-sepolicy/connectivity_thermal_power_manager \
     device/google/gs101-sepolicy/ambient \
