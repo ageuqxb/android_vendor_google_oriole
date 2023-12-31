@@ -2650,14 +2650,6 @@ PRODUCT_PACKAGES += \
     sscoredump \
     SSRestartDetector \
     SwitchAccessPrebuilt \
-    SystemUIClocks-BigNum \
-    SystemUIClocks-Calligraphy \
-    SystemUIClocks-Flex \
-    SystemUIClocks-Growth \
-    SystemUIClocks-Inflate \
-    SystemUIClocks-Metro \
-    SystemUIClocks-NumOverlap \
-    SystemUIClocks-Weather \
     TelephonyGoogle \
     TetheringEntitlement \
     trusty_metricsd \
