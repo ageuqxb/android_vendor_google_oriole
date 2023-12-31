@@ -21,7 +21,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/google/gs101-sepolicy/whitechapel/vendor/google/exo_camera_injection \
     hardware/google/pixel-sepolicy/connectivity_thermal_power_manager \
     device/google/gs101-sepolicy/ambient \
-    device/google/gs101-sepolicy/whitechapel/vendor/google \
     vendor/google_devices/oriole/sepolicy
 
 # Missing vendor SELinux context: /vendor/bin/hw/vendor\.google\.wireless_charger-default u:object_r:hal_wireless_charger_exec:s0
