@@ -2647,7 +2647,6 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.gs101 \
     sscoredump \
     SSRestartDetector \
-    SwitchAccessPrebuilt \
     TelephonyGoogle \
     TetheringEntitlement \
     trusty_metricsd \
