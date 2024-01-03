@@ -49,26 +49,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "BetterBugStub",
-    owner: "google_devices",
-    apk: "product/priv-app/BetterBugStub/BetterBugStub.apk",
-    certificate: "platform",
-    privileged: true,
-    dex_preopt: { enabled: false },
-    product_specific: true,
-}
-
-android_app_import {
-    name: "CarrierLocation",
-    owner: "google_devices",
-    apk: "product/priv-app/CarrierLocation/CarrierLocation.apk",
-    certificate: "platform",
-    privileged: true,
-    dex_preopt: { enabled: false },
-    product_specific: true,
-}
-
-android_app_import {
     name: "CarrierSettings",
     owner: "google_devices",
     apk: "product/priv-app/CarrierSettings/CarrierSettings.apk",
@@ -82,16 +62,6 @@ android_app_import {
     name: "CarrierWifi",
     owner: "google_devices",
     apk: "product/priv-app/CarrierWifi/CarrierWifi.apk",
-    certificate: "platform",
-    privileged: true,
-    dex_preopt: { enabled: false },
-    product_specific: true,
-}
-
-android_app_import {
-    name: "CbrsNetworkMonitor",
-    owner: "google_devices",
-    apk: "product/priv-app/CbrsNetworkMonitor/CbrsNetworkMonitor.apk",
     certificate: "platform",
     privileged: true,
     dex_preopt: { enabled: false },
@@ -139,15 +109,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "DevicePersonalizationPrebuiltPixel2021",
-    owner: "google_devices",
-    apk: "product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk",
-    certificate: "platform",
-    privileged: true,
-    dex_preopt: { enabled: false },
-    product_specific: true,
-}
-android_app_import {
     name: "EuiccGoogle",
     owner: "google_devices",
     apk: "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
@@ -181,16 +142,6 @@ android_app_import {
     name: "HotwordEnrollmentXGoogleFUSION",
     owner: "google_devices",
     apk: "product/priv-app/HotwordEnrollmentXGoogleFUSION/HotwordEnrollmentXGoogleFUSION.apk",
-    certificate: "platform",
-    privileged: true,
-    dex_preopt: { enabled: false },
-    product_specific: true,
-}
-
-android_app_import {
-    name: "KidsSupervisionStub",
-    owner: "google_devices",
-    apk: "product/priv-app/KidsSupervisionStub/KidsSupervisionStub.apk",
     certificate: "platform",
     privileged: true,
     dex_preopt: { enabled: false },
@@ -2807,17 +2758,6 @@ cc_prebuilt_library_shared {
     name: "libgril_oem-google",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/libgril_oem-google.so" ] } },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libjson",
-    owner: "google_devices",
-    target: { android_arm64: { srcs: [ "vendor/lib64/libjson.so" ] } },
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,

@@ -5,7 +5,7 @@
 $(call inherit-product, device/google/raviole/aosp_oriole.mk)
 
 # Match stock product info
-PRODUCT_NAME := zephyrus_oriole
+PRODUCT_NAME := oriole
 PRODUCT_MODEL := Pixel 6
 PRODUCT_BRAND := google
 PRODUCT_MANUFACTURER := Google

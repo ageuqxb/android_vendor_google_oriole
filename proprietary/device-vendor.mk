@@ -2393,16 +2393,13 @@ PRODUCT_PACKAGES += \
     audio_waves_aoc \
     audio.platform.aoc \
     audio.primary.gs101 \
-    BetterBugStub \
     biometricsuez \
     bipchmgr \
     blue \
-    CarrierLocation \
     CarrierSettings \
     CarrierSetup \
     CarrierWifi \
     cbd \
-    CbrsNetworkMonitor \
     cc \
     chre \
     citadel_updater \
@@ -2457,7 +2454,6 @@ PRODUCT_PACKAGES += \
     DiagMon \
     dmd \
     dmd__2 \
-    DevicePersonalizationPrebuiltPixel2021 \
     DMService \
     drop \
     EuiccGoogle \
@@ -2486,7 +2482,6 @@ PRODUCT_PACKAGES += \
     init.camera.set-interrupts-ownership \
     init.radio.sh \
     ip_health \
-    KidsSupervisionStub \
     lhd \
     lib_aion_buffer \
     lib_reader \
@@ -2558,7 +2553,6 @@ PRODUCT_PACKAGES += \
     libhidparser \
     libhwbinder.vendor \
     libion_exynos \
-    libjson \
     libkeymaster4support.vendor:64 \
     libkeymint_support.vendor:64 \
     libmahalcontroller \

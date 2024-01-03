@@ -129,7 +129,6 @@ system_ext/priv-app/SystemUIClocks-Metro/SystemUIClocks-Metro.apk
 system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
 system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
 system_ext/priv-app/TelephonyGoogle/TelephonyGoogle.apk
-product/app/SwitchAccessPrebuilt/SwitchAccessPrebuilt.apk
 product/app/VZWAPNLib/VZWAPNLib.apk
 product/etc/ambient/matcher_tah.leveldb
 product/etc/CarrierSettings/1and1_de.pb
@@ -461,11 +460,8 @@ product/lib64/libdmengine.so
 product/lib64/libdmjavaplugin.so
 product/priv-app/AICorePrebuilt/AICorePrebuilt.apk
 product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk
-product/priv-app/BetterBugStub/BetterBugStub.apk
-product/priv-app/CarrierLocation/CarrierLocation.apk
 product/priv-app/CarrierSettings/CarrierSettings.apk
 product/priv-app/CarrierWifi/CarrierWifi.apk
-product/priv-app/CbrsNetworkMonitor/CbrsNetworkMonitor.apk
 product/priv-app/ConnMO/ConnMO.apk
 product/priv-app/DCMO/DCMO.apk
 product/priv-app/DiagMon/DiagMon.apk
@@ -478,7 +474,6 @@ product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 product/priv-app/HealthConnectPrebuilt/HealthConnectPrebuilt.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentOKGoogleFUSION/HotwordEnrollmentOKGoogleFUSION.apk
 product/priv-app/HotwordEnrollmentXGoogleFUSION/HotwordEnrollmentXGoogleFUSION.apk
-product/priv-app/KidsSupervisionStub/KidsSupervisionStub.apk
 product/priv-app/OemDmTrigger/OemDmTrigger.apk
 product/priv-app/PixelCameraServicesOriole/PixelCameraServicesOriole.apk
 product/priv-app/PixelSupportPrebuilt/PixelSupportPrebuilt.apk
@@ -2613,7 +2608,6 @@ vendor/lib64/libgooglerilmemmonitor.so
 vendor/lib64/libgpudataproducer.so
 vendor/lib64/libgril_oem-google.so
 vendor/lib64/libion_exynos.so
-vendor/lib64/libjson.so
 vendor/lib64/libmahalcontroller.so
 vendor/lib64/libmetrics_logger.so
 vendor/lib64/libmodem_svc_proto.so
