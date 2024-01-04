@@ -2558,6 +2558,7 @@ PRODUCT_PACKAGES += \
     libmahalcontroller \
     libmedia_ecoservice.vendor \
     libmediaadaptor \
+		libjson \
     libmetrics_logger \
     libmodem_svc_proto \
     libnetfilter_conntrack:64 \
@@ -2696,7 +2697,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.baseline_setupwizard_enabled=true \
     setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
     setupwizard.feature.skip_button_use_mobile_data.carrier1839=true \
-    setupwizard.feature.show_pixel_tos=true \
     setupwizard.feature.show_support_link_in_deferred_setup=false \
     setupwizard.feature.enable_wifi_tracker=true \
     ro.carriersetup.vzw_consent_page=true \

@@ -2613,6 +2613,7 @@ vendor/lib64/libmetrics_logger.so
 vendor/lib64/libmodem_svc_proto.so
 vendor/lib64/libnos_citadeld_proxy.so
 vendor/lib64/liboemcrypto.so
+vendor/lib64/libjson.so
 vendor/lib64/liboemservice.so
 vendor/lib64/libOpenCL-pixel.so
 vendor/lib64/libOpenCL.so
